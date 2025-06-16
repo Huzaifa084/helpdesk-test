@@ -1,10 +1,11 @@
 <template>
   <div
-    class="-all flex h-7 cursor-pointer items-center rounded pl-2 pr-1 text-gray-800 duration-300 ease-in-out"
+    class="-all flex h-7 cursor-pointer items-center rounded pl-2 pr-1 duration-300 ease-in-out"
     :class="{
       'w-full': isExpanded,
       'w-8': !isExpanded,
       'shadow-sm': isActive,
+      'text-white': isActive,
       [bgColor]: isActive,
       [hvColor]: !isActive,
     }"
@@ -12,19 +13,19 @@
   >
     <Tooltip :text="label" v-if="!isExpanded">
       <span
-        class="shrink-0 text-gray-700"
+        class="shrink-0"
         :class="{
-          'text-gray-900': !isExpanded,
-          'icon-emoji': isMobileView,
+          'text-grey-900': !isExpanded,
+          'icon-emoji': isMobileView
         }"
       >
-        <Icon v-if="typeof icon === 'string'" :icon="icon" class="h-4 w-4" />
+        <Icon v-if="typeof icon === 'string'" :icon="icon" class="h-4 w-4"/>
         <component :is="icon" v-else class="h-4 w-4" />
       </span>
     </Tooltip>
     <span
       v-else
-      class="shrink-0 text-gray-700"
+      class="shrink-0 text-grey-700"
       :class="{
         'text-gray-900': !isExpanded,
         'icon-emoji': isMobileView,
@@ -68,8 +69,8 @@ const props = withDefaults(defineProps<P>(), {
   isActive: false,
   onClick: () => () => true,
   to: "",
-  bgColor: "bg-white",
-  hvColor: "hover:bg-gray-100",
+  bgColor: "bg-blue-500",
+  hvColor: "hover:bg-blue-500 hover:text-white",
 });
 const router = useRouter();
 const { isMobileView } = useScreenSize();
