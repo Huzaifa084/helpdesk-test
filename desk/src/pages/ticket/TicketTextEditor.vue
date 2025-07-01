@@ -40,7 +40,7 @@
           @failure="() => toast.error('Error uploading file')"
         >
           <template #default="{ openFileSelector }">
-            <Button theme="gray" variant="ghost" @click="openFileSelector()">
+            <Button theme="blue" variant="ghost" @click="openFileSelector()">
               <template #icon>
                 <Icon icon="lucide:paperclip" />
               </template>

@@ -7,7 +7,7 @@
       <template #right-header>
         <Button
           label="New contact"
-          theme="gray"
+          theme="blue"
           variant="solid"
           @click="showNewContactModal = !showNewContactModal"
         >

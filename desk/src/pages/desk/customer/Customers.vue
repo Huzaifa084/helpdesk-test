@@ -7,7 +7,7 @@
       <template #right-header>
         <Button
           label="New customer"
-          theme="gray"
+          theme="blue"
           variant="solid"
           @click="isDialogVisible = !isDialogVisible"
         >

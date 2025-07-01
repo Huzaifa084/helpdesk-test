@@ -5,7 +5,7 @@
       <h1 class="text-lg font-semibold">Email Accounts</h1>
       <Button
         label="Add Account"
-        theme="gray"
+        theme="blue"
         variant="solid"
         @click="emit('update:step', 'email-add')"
       >

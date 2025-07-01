@@ -25,7 +25,7 @@
           <div class="float-right flex space-x-2">
             <Button
               label="Add"
-              theme="gray"
+              theme="blue"
               variant="solid"
               @click.prevent="addCustomer"
             />

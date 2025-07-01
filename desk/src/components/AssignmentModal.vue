@@ -35,7 +35,7 @@
         >
           <Button
             :label="getUser(currentAssignee.name).full_name"
-            theme="gray"
+            theme="blue"
             variant="outline"
           >
             <template #prefix>
