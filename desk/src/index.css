@@ -27,3 +27,8 @@
 		prose-th:relative
 	}
 }
+
+
+[type=checkbox]:checked, [type=radio]:checked{
+	background-color: #0289f7 !important;
+}
