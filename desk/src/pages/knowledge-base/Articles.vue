@@ -10,7 +10,7 @@
     >
       <div
         v-if="articles.data"
-        class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-5 bg-surface-blue-2"
+        class="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-5"
       >
         <ArticleCard
           v-for="article in articles.data"
