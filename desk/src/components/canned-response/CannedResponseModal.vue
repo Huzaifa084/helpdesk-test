@@ -7,6 +7,7 @@
         {
           label: !isNew ? 'Update' : 'Create',
           variant: 'solid',
+          theme: 'blue',
           onClick: () => updateItem(),
         },
       ],
