@@ -47,7 +47,7 @@
       emptyState,
     }"
   >
-    <ListHeader class="sm:mx-5 mx-3 bg-surface-blue-2">
+    <ListHeader class="sm:mx-5 mx-3">
       <ListHeaderItem
         v-for="column in columns"
         :key="column.key"

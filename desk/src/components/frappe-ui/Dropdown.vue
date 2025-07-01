@@ -52,7 +52,7 @@
                   <button
                     v-else
                     :class="[
-                      active ? 'bg-surface-gray-3' : 'text-ink-gray-6',
+                      active ? 'bg-surface-blue-3' : 'text-ink-gray-6',
                       'group flex h-7 w-full items-center rounded px-2 text-base',
                     ]"
                     @click="item.onClick"

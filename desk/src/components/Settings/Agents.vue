@@ -31,7 +31,7 @@
           <template #item="{ item, active }">
             <button
               class="group flex text-ink-gray-6 gap-4 h-7 w-full justify-between items-center rounded px-2 text-base"
-              :class="{ 'bg-surface-gray-3': active }"
+              :class="{ 'bg-surface-blue-3': active }"
               @click="item.onClick"
             >
               <div class="flex items-center justify-between flex-1">
@@ -192,7 +192,7 @@ function RoleOption({ active, role, onClick, selected }) {
     "button",
     {
       class: [
-        active ? "bg-surface-gray-2" : "text-ink-gray-7",
+        active ? "bg-surface-blue-2" : "text-ink-gray-7",
         "group flex w-full justify-between items-center rounded-md px-2 py-2 text-base",
       ],
       onClick: !selected ? onClick : null,

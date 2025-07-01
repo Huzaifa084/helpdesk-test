@@ -1,6 +1,6 @@
 <template>
   <router-link
-    class="flex flex-col gap-3 border border-gray-200 rounded p-4 pb-2 cursor-pointer h-30 hover:bg-surface-gray-2 transition-all"
+    class="flex flex-col gap-3 border border-gray-200 rounded p-4 pb-2 cursor-pointer h-30 hover:bg-surface-blue-2 transition-all"
     :to="{
       name: 'ArticlePublic',
       params: {

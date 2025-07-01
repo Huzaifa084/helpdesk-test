@@ -22,7 +22,7 @@
       <div
         v-for="a in articles.data"
         :key="a.id"
-        class="rounded-md border-2 p-2 border-hidden hover:bg-surface-gray-2"
+        class="rounded-md border-2 p-2 border-hidden hover:bg-surface-blue-2"
       >
         <RouterLink
           class="group cursor-pointer hover:text-gray-900 flex flex-col gap-1"
