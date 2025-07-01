@@ -27,6 +27,7 @@
               @click="openFileSelector()"
               iconLeft="upload"
               label="Upload Image"
+              theme="blue"
               :loading="config.loading"
             />
           </template>

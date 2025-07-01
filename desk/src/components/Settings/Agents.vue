@@ -50,6 +50,7 @@
         <Button
           @click="() => (showNewAgentsDialog = !showNewAgentsDialog)"
           label="New"
+          theme="blue"
           variant="solid"
         >
           <template #prefix>

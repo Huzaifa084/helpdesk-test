@@ -17,6 +17,7 @@
         <Button
           @click="() => (showForm = !showForm)"
           label="New"
+          theme="blue"
           variant="solid"
         >
           <template #prefix>
