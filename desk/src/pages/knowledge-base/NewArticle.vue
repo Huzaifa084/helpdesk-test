@@ -29,6 +29,7 @@
             <Button label="Discard" theme="blue" @click="handleArticleDiscard" />
             <Button
               label="Create"
+              theme="blue"
               variant="solid"
               @click="handleCreateArticle"
             />

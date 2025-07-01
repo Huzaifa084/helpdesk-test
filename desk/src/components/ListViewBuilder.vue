@@ -7,7 +7,7 @@
     <QuickFilters v-if="!isMobileView" class="flex-1" />
     <div class="flex items-start gap-2 justify-end h-full" v-if="!isMobileView">
       <Button
-      theme="blue"
+        theme="blue"
         label="Save Changes"
         v-if="isViewUpdated && canSaveView"
         @click="handleViewUpdate"
