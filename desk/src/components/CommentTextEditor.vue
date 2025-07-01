@@ -68,6 +68,7 @@
           <div class="flex items-center justify-end space-x-2 w-[40%]">
             <Button
               label="Discard"
+              theme="blue"
               @click="
                 () => {
                   newComment = '';

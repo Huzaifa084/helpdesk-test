@@ -65,11 +65,13 @@
       <Button
         v-if="title == 'Emails'"
         label="New Email"
+        theme="blue"
         @click="communicationAreaRef.toggleEmailBox()"
       />
       <Button
         v-else-if="title == 'Comments'"
         label="New Comment"
+        theme="blue"
         @click="communicationAreaRef.toggleCommentBox()"
       />
     </div>

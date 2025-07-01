@@ -26,7 +26,7 @@
           </div>
           <!-- Action Buttons -->
           <div class="flex gap-2">
-            <Button label="Discard" @click="handleArticleDiscard" />
+            <Button label="Discard" theme="blue" @click="handleArticleDiscard" />
             <Button
               label="Create"
               variant="solid"
