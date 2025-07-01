@@ -37,7 +37,7 @@
       <template #item="{ item, active }">
         <button
           class="group flex text-ink-gray-6 gap-4 h-7 w-full justify-between items-center rounded px-2 text-base"
-          :class="{ 'bg-surface-blue-3': active }"
+          :class="{ 'bg-surface-gray-3': active }"
           @click="item.onClick"
         >
           <div class="flex items-center">
