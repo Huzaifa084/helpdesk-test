@@ -10,6 +10,7 @@
     <Input
       v-model="input"
       class="w-full"
+      theme="blue"
       :placeholder="placeholder"
       @keyup.enter="add({ label: input, value: input })"
     />

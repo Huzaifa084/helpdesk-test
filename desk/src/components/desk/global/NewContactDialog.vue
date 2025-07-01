@@ -21,6 +21,7 @@
               v-if="field.type === 'input'"
               v-model="state[field.value]"
               type="text"
+              theme="blue"
               @blur="field.action"
             />
             <Autocomplete
