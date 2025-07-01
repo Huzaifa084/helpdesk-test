@@ -48,7 +48,7 @@
       emptyState,
     }"
   >
-    <ListHeader class="sm:mx-5 mx-3" style="background-color: #dbeafe !important;">
+    <ListHeader class="sm:mx-5 mx-3" style="background-color: #e6f4ff !important;">
       <ListHeaderItem 
         v-for="column in columns"
         :key="column.key"
