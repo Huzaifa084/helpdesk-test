@@ -26,12 +26,14 @@
           </FileUploader>
           <Button
             v-if="contact.doc?.image"
+            theme="blue"
             label="Remove photo"
             @click="updateImage(null)"
           />
           <Button
             v-if="!contact.doc?.user && isManager"
             label="Invite as user"
+            theme="blue"
             @click="inviteContact"
             :loading="isLoading"
           />

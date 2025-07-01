@@ -35,6 +35,7 @@
       <div v-else class="flex items-center justify-center">
         <Button
           v-if="sortValues.size"
+          theme="blue"
           class="rounded-r-none border-r"
           @click.stop="
             () => {
@@ -84,6 +85,7 @@
               </div>
               <div class="flex">
                 <Button
+                theme="blue"
                   size="md"
                   class="rounded-r-none border-r"
                   @click="
@@ -107,6 +109,7 @@
                     #target="{ togglePopover, selectedValue, displayValue }"
                   >
                     <Button
+                    theme="blue"
                       class="flex w-full items-center justify-between rounded-l-none !text-gray-600 text-xs"
                       size="md"
                       @click="togglePopover()"
@@ -122,7 +125,7 @@
                   </template>
                 </Autocomplete>
               </div>
-              <Button variant="ghost" icon="x" @click="removeSort(i)" />
+              <Button variant="ghost" theme="blue" icon="x" @click="removeSort(i)" />
             </div>
           </div>
           <div
@@ -140,6 +143,7 @@
             >
               <template #target="{ togglePopover }">
                 <Button
+                theme="blue"
                   class="!text-gray-600"
                   variant="ghost"
                   @click="togglePopover()"
@@ -153,6 +157,7 @@
             </Autocomplete>
             <Button
               v-if="sortValues?.size"
+              theme="blue"
               class="!text-gray-600"
               variant="ghost"
               :label="'Clear Sort'"

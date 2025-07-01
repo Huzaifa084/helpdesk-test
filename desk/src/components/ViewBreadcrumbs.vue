@@ -11,6 +11,7 @@
       <template #default="{ open }">
         <Button
           variant="ghost"
+          theme="blue"
           class="text-lg font-medium text-nowrap"
           :label="currentView.label"
         >
@@ -66,6 +67,7 @@
               <template #default="{ togglePopover }">
                 <Button
                   variant="ghost"
+                  theme="blue"
                   class="!size-5"
                   icon="more-horizontal"
                   @click.stop="togglePopover()"

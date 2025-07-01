@@ -47,6 +47,7 @@
         <div v-if="attrs.onCreate">
           <Button
             variant="ghost"
+            theme="blue"
             class="w-full !justify-start"
             :label="'Create New'"
             @click="attrs.onCreate(value, close)"
@@ -59,6 +60,7 @@
         <div>
           <Button
             variant="ghost"
+            theme="blue"
             class="w-full !justify-start"
             :label="'Clear'"
             @click="() => clearValue(close)"

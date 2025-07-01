@@ -85,6 +85,7 @@
       />
       <Button
         label="Create"
+        theme="blue"
         variant="solid"
         :loading="addEmailRes.loading"
         @click="createEmailAccount"

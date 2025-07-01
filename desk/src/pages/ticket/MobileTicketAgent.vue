@@ -154,6 +154,7 @@
       <template #actions>
         <Button
           variant="solid"
+          theme="blue"
           :disabled="!subjectInput"
           :loading="isLoading"
           @click="
@@ -165,7 +166,7 @@
         >
           Confirm
         </Button>
-        <Button class="ml-2" @click="showSubjectDialog = false"> Close </Button>
+        <Button class="ml-2" theme="blue" @click="showSubjectDialog = false"> Close </Button>
       </template>
     </Dialog>
   </div>

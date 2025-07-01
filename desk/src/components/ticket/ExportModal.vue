@@ -31,6 +31,7 @@
       <Button
         label="Download"
         variant="solid"
+        theme="blue"
         @click="() => emit('update', form)"
         class="w-full"
       />

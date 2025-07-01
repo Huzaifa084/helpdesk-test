@@ -24,6 +24,7 @@
           <Button
             v-if="customer.doc?.image"
             label="Remove photo"
+            theme="blue"
             @click="updateImage(null)"
           />
         </div>

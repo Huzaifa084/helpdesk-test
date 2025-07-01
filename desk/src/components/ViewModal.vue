@@ -11,6 +11,7 @@
         <IconPicker v-model="view.icon" v-slot="{ togglePopover }">
           <Button
             size="md"
+            theme="blue"
             class="flex size-8 text-2xl leading-none"
             :label="view.icon"
             @click="togglePopover"
@@ -28,6 +29,7 @@
     <template #actions>
       <Button
         :label="modalInfo.buttonLabel"
+        theme="blue"
         variant="solid"
         @click="emit('update', view, modalInfo.action)"
         class="w-full"

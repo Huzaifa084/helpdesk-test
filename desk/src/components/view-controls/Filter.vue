@@ -3,6 +3,7 @@
     <template #target>
       <div class="flex items-center w-fit">
         <Button
+          :theme="'blue'"
           :label="'Filter'"
           :class="filters?.size ? 'rounded-r-none' : ''"
         >
@@ -18,6 +19,7 @@
         <Tooltip v-if="filters?.size" :text="'Clear all Filter'">
           <div>
             <Button
+            theme="blue"
               class="rounded-l-none border-l"
               icon="x"
               @click.stop="clearfilter(false)"
@@ -43,6 +45,7 @@
                 </div>
                 <Button
                   class="flex"
+                  theme="blue"
                   variant="ghost"
                   icon="x"
                   @click="removeFilter(i)"
@@ -109,6 +112,7 @@
               </div>
               <Button
                 class="flex"
+                theme="blue"
                 variant="ghost"
                 icon="x"
                 @click="removeFilter(i)"
@@ -131,6 +135,7 @@
               <template #target="{ togglePopover }">
                 <Button
                   class="!text-gray-600"
+                  theme="blue"
                   variant="ghost"
                   @click="togglePopover()"
                   :label="'Add Filter'"
@@ -144,6 +149,7 @@
             <Button
               v-if="filters?.size"
               class="!text-gray-600"
+              theme="blue"
               variant="ghost"
               :label="'Clear all Filter'"
               @click="clearfilter(close)"

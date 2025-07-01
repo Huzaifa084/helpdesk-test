@@ -49,6 +49,7 @@
               @click.stop
             >
               <Button
+              theme="blue"
                 icon="more-horizontal"
                 variant="ghosted"
                 class="hover:bg-white"

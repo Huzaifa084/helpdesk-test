@@ -49,6 +49,7 @@
       <div class="flex justify-end mt-4">
         <Button
           label="New Canned Response"
+          theme="blue"
           @click="
             () => {
               $router.push('/canned-responses#new');

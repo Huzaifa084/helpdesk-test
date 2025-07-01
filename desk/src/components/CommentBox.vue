@@ -44,6 +44,7 @@
               icon="more-horizontal"
               class="text-gray-600"
               variant="ghost"
+              theme="blue"
             />
           </Dropdown>
         </div>

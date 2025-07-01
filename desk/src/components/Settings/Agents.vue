@@ -17,6 +17,7 @@
         <Dropdown :options="dropdownOptions" placement="right">
           <template #default="{ open }">
             <Button
+            theme="blue"
               :label="activeFilter"
               class="flex items-center justify-between w-[90px]"
             >
@@ -65,6 +66,7 @@
       <Button
         :loading="agents.loading"
         variant="ghost"
+        theme="blue"
         class="w-full"
         size="2xl"
       />
@@ -108,7 +110,7 @@
               :key="agent"
               class="ml-2"
             >
-              <Button variant="ghost">
+              <Button variant="ghost" theme="blue">
                 <template #icon>
                   <IconMoreHorizontal class="h-4 w-4" />
                 </template>
@@ -122,6 +124,7 @@
         <Button
           v-if="!agents.loading && agents.hasNextPage"
           class="mt-3.5 p-2"
+          theme="blue"
           @click="() => agents.next()"
           :loading="agents.loading"
           label="Load More"

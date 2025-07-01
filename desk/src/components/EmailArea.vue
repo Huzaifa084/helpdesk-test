@@ -38,6 +38,7 @@
         <Button
           variant="ghost"
           class="text-gray-700"
+          theme="blue"
           @click="
             emit('reply', {
               content: content,
@@ -50,6 +51,7 @@
         <Button
           variant="ghost"
           class="text-gray-700"
+          theme="blue"
           @click="
             emit('reply', {
               content: content,
@@ -76,6 +78,7 @@
             icon="more-horizontal"
             class="text-gray-600"
             variant="ghost"
+            theme="blue"
           />
         </Dropdown>
       </div>

@@ -52,7 +52,7 @@
               :options="articleActions"
               v-if="!editable && !isCustomerPortal"
             >
-              <Button variant="ghost">
+              <Button variant="ghost" theme="blue">
                 <template #icon>
                   <IconMoreHorizontal class="h-4 w-4" />
                 </template>
@@ -66,7 +66,7 @@
                 @discard="handleDiscard"
               />
 
-              <Button label="Save" @click="handleSave" variant="solid" />
+              <Button label="Save" theme="blue" @click="handleSave" variant="solid" />
             </div>
           </div>
           <!-- Title -->

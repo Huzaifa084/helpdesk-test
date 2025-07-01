@@ -73,6 +73,7 @@
       <div class="flex gap-2">
         <Button
           label="Update Account"
+          theme="blue"
           variant="solid"
           @click="updateAccount"
           :loading="loading"
@@ -80,6 +81,7 @@
         <Button
           v-if="accountData.enable_incoming"
           label="Pull Emails"
+          theme="blue"
           variant="subtle"
           @click="pullEmails"
           :loading="loadingPull"

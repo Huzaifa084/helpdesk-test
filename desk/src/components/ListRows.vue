@@ -22,7 +22,7 @@
             </div>
           </div>
           <Dropdown :options="actions(group)" v-if="groupByActions.length > 0">
-            <Button variant="ghost">
+            <Button variant="ghost" theme="blue">
               <template #icon>
                 <IconMoreHorizontal class="h-4 w-4" />
               </template>

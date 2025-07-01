@@ -49,6 +49,7 @@
     <div v-if="teams.loading" class="flex mt-28 justify-between w-full h-full">
       <Button
         :loading="teams.loading"
+        theme="blue"
         variant="ghost"
         class="w-full"
         size="2xl"

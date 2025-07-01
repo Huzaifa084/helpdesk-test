@@ -12,12 +12,12 @@
     </Button>
   </div>
   <Dropdown v-if="groupedActions.length" :options="groupedActions">
-    <Button icon="more-horizontal" />
+    <Button theme="blue" icon="more-horizontal" />
   </Dropdown>
   <div v-if="groupedWithLabelActions.length">
     <div v-for="g in groupedWithLabelActions" :key="g.label">
       <Dropdown v-slot="{ open }" :options="g.action">
-        <Button :label="g.label">
+        <Button theme="blue" :label="g.label">
           <template #suffix>
             <FeatherIcon
               :name="open ? 'chevron-up' : 'chevron-down'"

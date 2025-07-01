@@ -1,5 +1,5 @@
 <template>
-  <Button :label="label" @click="handleDiscard" />
+  <Button :label="label" theme="blue" @click="handleDiscard" />
 </template>
 
 <script setup lang="ts">

@@ -30,6 +30,7 @@
         class="w-full"
         variant="solid"
         label="Merge"
+        theme="blue"
         @click="emit('merge', categoryId, toCategory)"
       />
     </template>

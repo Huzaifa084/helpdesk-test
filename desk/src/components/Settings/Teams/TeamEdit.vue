@@ -13,7 +13,7 @@
         />
       </div>
       <Dropdown placement="right" :options="options">
-        <Button variant="ghost">
+        <Button variant="ghost" theme="blue">
           <template #icon>
             <LucideMoreHorizontal class="h-4 w-4" />
           </template>
@@ -55,6 +55,7 @@
         <Button
           label="Add"
           variant="solid"
+          theme="blue"
           :disabled="!search"
           @click="addMember(search)"
         >

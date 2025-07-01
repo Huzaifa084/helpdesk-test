@@ -21,7 +21,7 @@
           },
         ]"
       >
-        <Button icon="more-horizontal" class="text-gray-600" variant="ghost" />
+        <Button icon="more-horizontal" class="text-gray-600" theme="blue" variant="ghost" />
       </Dropdown>
     </div>
     <TicketAgentContact

@@ -48,6 +48,7 @@
       <Button
         class="w-full"
         variant="solid"
+        theme="blue"
         :label="
           targetTicket ? `Merge with ticket #${targetTicket} ` : 'Select Ticket'
         "

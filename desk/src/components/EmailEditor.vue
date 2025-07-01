@@ -25,12 +25,12 @@
         />
         <Button
           :label="'CC'"
-          :class="[cc ? 'bg-blue-300 hover:bg-blue-200' : '']"
+          :class="[cc ? 'bg-blue-200 hover:bg-blue-100' : '']"
           @click="toggleCC()"
         />
         <Button
           :label="'BCC'"
-          :class="[bcc ? 'bg-blue-300 hover:bg-blue-200' : '']"
+          :class="[bcc ? 'bg-blue-200 hover:bg-blue-100' : '']"
           @click="toggleBCC()"
         />
       </div>

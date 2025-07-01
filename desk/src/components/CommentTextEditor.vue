@@ -79,6 +79,7 @@
             />
             <Button
               variant="solid"
+              theme="blue"
               :label="label"
               :disabled="commentEmpty"
               :loading="loading"

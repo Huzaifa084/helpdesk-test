@@ -36,6 +36,7 @@
         <div v-else>
           <Button
             label="Remove"
+            theme="blue"
             @click="update('', config.doctype, config.fieldname)"
             iconLeft="trash"
             :loading="config.loading"

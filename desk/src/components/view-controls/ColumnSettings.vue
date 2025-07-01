@@ -1,7 +1,7 @@
 <template>
   <NestedPopover>
     <template #target>
-      <Button label="Columns">
+      <Button label="Columns" theme="blue">
         <template v-if="hideLabel">
           <ColumnsIcon class="h-4" />
         </template>
@@ -33,6 +33,7 @@
                 <div class="flex cursor-pointer items-center gap-1">
                   <Button
                     variant="ghost"
+                    theme="blue"
                     class="!h-5 w-5 !p-1"
                     @click="editColumn(element)"
                   >
@@ -40,6 +41,7 @@
                   </Button>
                   <Button
                     variant="ghost"
+                    theme="blue"
                     class="!h-5 w-5 !p-1"
                     @click="removeColumn(element)"
                   >
@@ -61,6 +63,7 @@
                 <Button
                   class="w-full !justify-start !text-ink-gray-5"
                   variant="ghost"
+                  theme="blue"
                   @click="togglePopover()"
                   label="Add Column"
                 >
@@ -85,6 +88,7 @@
               v-if="!is_default"
               class="w-full !justify-start !text-ink-gray-5"
               variant="ghost"
+              theme="blue"
               @click="resetToDefault(close)"
               label="Reset to Default"
             >
@@ -122,12 +126,14 @@
               <Button
                 variant="subtle"
                 label="Cancel"
+                theme="blue"
                 class="w-full flex-1"
                 @click="cancelUpdate"
               />
               <Button
                 variant="solid"
                 label="Update"
+                theme="blue"
                 class="w-full flex-1"
                 @click="updateColumn(column)"
               />

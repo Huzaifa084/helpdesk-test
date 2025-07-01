@@ -21,7 +21,7 @@
           </Tooltip>
           <div class="flex gap-1.5" v-if="!ticket.data.feedback_rating">
             <Tooltip :text="ticket.data.contact.email_id">
-              <Button class="h-7 w-7" @click="emit('open')">
+              <Button class="h-7 w-7" theme="blue" @click="emit('open')">
                 <template #icon>
                   <EmailIcon class="h-4 w-4" />
                 </template>

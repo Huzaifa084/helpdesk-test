@@ -9,7 +9,7 @@
       </Tooltip>
       <div class="flex gap-1.5">
         <Tooltip :text="contact.email_id">
-          <Button class="h-7 w-7">
+          <Button theme="blue" class="h-7 w-7">
             <template #icon>
               <EmailIcon class="h-4 w-4" @click="openEmailBox()" />
             </template>

@@ -15,6 +15,7 @@
         <Button
           class="!size-4"
           variant="ghost"
+          theme="blue"
           @click="show_others = !show_others"
         >
           <template #icon>

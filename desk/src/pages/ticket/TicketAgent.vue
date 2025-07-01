@@ -124,6 +124,7 @@
           />
           <Button
             variant="solid"
+            theme="blue"
             :loading="isLoading"
             label="Rename"
             @click="handleRename"
