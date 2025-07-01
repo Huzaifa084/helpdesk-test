@@ -65,7 +65,7 @@
     <div class="mt-auto flex justify-between">
       <Button
         label="Back"
-        theme="gray"
+        theme="blue"
         variant="outline"
         :disabled="loading"
         @click="emit('update:step', 'email-list')"

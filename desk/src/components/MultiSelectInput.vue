@@ -6,7 +6,7 @@
         ref="emails"
         :key="value"
         :label="value"
-        theme="gray"
+        theme="blue"
         variant="subtle"
         class="rounded-full"
         @keydown.delete.capture.stop="removeLastValue"

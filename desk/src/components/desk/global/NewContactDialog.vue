@@ -35,7 +35,7 @@
             <Button
               label="Create"
               :loading="contactResource.loading"
-              theme="gray"
+              theme="blue"
               variant="solid"
               @click="createContact()"
             />

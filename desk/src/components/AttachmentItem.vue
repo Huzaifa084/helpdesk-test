@@ -3,7 +3,7 @@
     <a :href="isShowable ? null : url" target="_blank">
       <Button
         :label="label"
-        theme="gray"
+        theme="blue"
         variant="outline"
         @click="toggleDialog()"
       >

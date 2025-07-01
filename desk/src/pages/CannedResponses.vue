@@ -7,7 +7,7 @@
       <template #right-header>
         <Button
           label="Create"
-          theme="gray"
+          theme="blue"
           variant="solid"
           @click="
             () => {

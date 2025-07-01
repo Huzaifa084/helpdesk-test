@@ -73,7 +73,7 @@
             <template #bottom-right>
               <Button
                 label="Submit"
-                theme="gray"
+                theme="blue"
                 variant="solid"
                 :disabled="
                   $refs.editor.editor.isEmpty || ticket.loading || !subject
@@ -97,7 +97,7 @@
           <template #bottom-right>
             <Button
               label="Submit"
-              theme="gray"
+              theme="blue"
               variant="solid"
               :disabled="
                 $refs.editor.editor.isEmpty || ticket.loading || !subject

@@ -1,7 +1,7 @@
 <template>
   <Button
     :key="label"
-    theme="gray"
+    theme="blue"
     variant="outline"
     :label="label"
     :disabled="disabled"

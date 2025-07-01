@@ -51,7 +51,7 @@
             >
               <template #default="{ openFileSelector }">
                 <Button
-                  theme="gray"
+                  theme="blue"
                   variant="ghost"
                   @click="openFileSelector()"
                 >

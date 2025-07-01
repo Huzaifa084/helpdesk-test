@@ -39,7 +39,7 @@
             <div class="flex items-center gap-2">
               <Button
                 label="Discard"
-                theme="gray"
+                theme="blue"
                 variant="subtle"
                 @click="
                   () => {

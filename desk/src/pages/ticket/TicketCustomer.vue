@@ -12,7 +12,7 @@
         <Button
           v-if="ticket.data.status !== 'Closed'"
           label="Close"
-          theme="gray"
+          theme="blue"
           variant="solid"
           @click="handleClose()"
         >

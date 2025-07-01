@@ -25,7 +25,7 @@
           </template>
         </Button>
         <Button
-          theme="gray"
+          theme="blue"
           variant="ghost"
           @click="() => notificationStore.toggle()"
         >
