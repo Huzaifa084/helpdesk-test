@@ -7,7 +7,6 @@
         {
           label: 'Create',
           variant: 'solid',
-          theme: "blue",
           onClick: () => {
             newTeam.submit();
           },
