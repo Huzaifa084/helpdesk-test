@@ -277,6 +277,7 @@ const defaultParams = reactive({
   rows: [],
   show_customer_portal_fields: options.value.isCustomerPortal,
   is_default: false,
+  theme: "blue"
 });
 
 const emptyState = computed(() => {
