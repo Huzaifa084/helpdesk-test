@@ -7,7 +7,7 @@
     @change="(e) => setSort(e)"
   >
     <template #target="{ togglePopover }">
-      <Button :label="'Sort'" :theme="'blue'" @click="togglePopover()">
+      <Button :label="'Sort'" theme="blue" @click="togglePopover()">
         <template v-if="hideLabel">
           <SortIcon class="h-4" />
         </template>
