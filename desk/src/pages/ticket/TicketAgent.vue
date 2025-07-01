@@ -27,7 +27,7 @@
         </div>
         <button
           v-else
-          class="rounded bg-gray-100 px-2 py-1.5 text-base text-gray-800"
+          class="rounded bg-blue-100 px-2 py-1.5 text-base text-gray-800"
           @click="showAssignmentModal = true"
         >
           Assign

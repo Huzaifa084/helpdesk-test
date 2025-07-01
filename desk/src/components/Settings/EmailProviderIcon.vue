@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-xl bg-gray-100 hover:bg-gray-200"
+    class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-xl bg-blue-100 hover:bg-blue-200"
     :class="{ 'ring-2 ring-blue-500': selected }"
   >
     <img :src="logo" class="h-6 w-6" />

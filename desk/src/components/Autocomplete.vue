@@ -80,7 +80,7 @@
                   <li
                     :class="[
                       'flex items-center rounded px-2.5 py-1.5 text-base',
-                      { 'bg-gray-100': active },
+                      { 'bg-blue-100': active },
                     ]"
                   >
                     <slot

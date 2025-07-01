@@ -39,7 +39,7 @@
       <RouterLink
         v-for="n in notificationStore.data"
         :key="n.name"
-        class="flex cursor-pointer items-start gap-3.5 px-5 py-2.5 hover:bg-gray-100"
+        class="flex cursor-pointer items-start gap-3.5 px-5 py-2.5 hover:bg-blue-100"
         :to="getRoute(n)"
         @click="
           () => {

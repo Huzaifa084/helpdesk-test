@@ -8,7 +8,7 @@
           ref="sendEmailRef"
           variant="ghost"
           label="Reply"
-          :class="[showEmailBox ? '!bg-gray-300 hover:!bg-gray-200' : '']"
+          :class="[showEmailBox ? '!bg-blue-300 hover:!bg-blue-200' : '']"
           @click="toggleEmailBox()"
         >
           <template #prefix>
@@ -18,7 +18,7 @@
         <Button
           variant="ghost"
           label="Comment"
-          :class="[showCommentBox ? '!bg-gray-300 hover:!bg-gray-200' : '']"
+          :class="[showCommentBox ? '!bg-blue-300 hover:!bg-blue-200' : '']"
           @click="toggleCommentBox()"
         >
           <template #prefix>

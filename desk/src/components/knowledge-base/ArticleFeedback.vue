@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-between mb-8 p-4 rounded-lg bg-gray-50">
+  <div class="flex items-center justify-between mb-8 p-4 rounded-lg bg-blue-50">
     <!-- Feedback Section -->
     <div>
       <!-- was this article helpful? -->

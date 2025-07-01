@@ -11,7 +11,7 @@
         leave-to="-translate-x-full"
       >
         <div
-          class="relative z-10 flex h-full w-[230px] flex-col border-r bg-gray-50 transition-all duration-300 ease-in-out"
+          class="relative z-10 flex h-full w-[230px] flex-col border-r bg-blue-50 transition-all duration-300 ease-in-out"
         >
           <!-- user dropwdown -->
           <div><UserMenu class="p-2 mb-2" :options="profileSettings" /></div>
@@ -89,7 +89,7 @@
         leave-from="opacity-100"
         leave-to="opacity-0"
       >
-        <DialogOverlay class="fixed inset-0 bg-gray-600 bg-opacity-50" />
+        <DialogOverlay class="fixed inset-0 bg-blue-600 bg-opacity-50" />
       </TransitionChild>
     </Dialog>
   </TransitionRoot>
@@ -199,15 +199,15 @@ const agentPortalDropdown = computed(() => [
       window.open(path.href);
     },
   },
-  {
-    icon: "life-buoy",
-    label: "Support",
-    onClick: () => window.open("https://t.me/frappedesk"),
-  },
+  // {
+  //   icon: "life-buoy",
+  //   label: "Support",
+  //   onClick: () => window.open("https://t.me/frappedesk"),
+  // },
   {
     icon: "book-open",
     label: "Docs",
-    onClick: () => window.open("https://docs.frappe.io/helpdesk"),
+    onClick: () => window.open("https://example.com"),
   },
   {
     label: "Log out",

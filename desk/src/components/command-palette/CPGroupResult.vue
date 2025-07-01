@@ -1,7 +1,7 @@
 <template>
   <div
     class="flex w-full min-w-0 items-center rounded p-2 text-base font-medium text-gray-800"
-    :class="{ 'bg-gray-200': active }"
+    :class="{ 'bg-blue-200': active }"
   >
     <component
       :is="item.icon"
