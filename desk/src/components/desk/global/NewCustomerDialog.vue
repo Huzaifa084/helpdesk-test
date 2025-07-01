@@ -11,6 +11,7 @@
               v-model="state.customer"
               label="Customer Name"
               type="text"
+              theme="blue"
               placeholder="Tesla Inc."
             />
           </div>
@@ -19,6 +20,7 @@
               v-model="state.domain"
               label="Domain"
               type="text"
+              theme="blue"
               placeholder="eg: tesla.com, mycompany.com"
             />
           </div>

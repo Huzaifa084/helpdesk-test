@@ -14,6 +14,7 @@
           <Input
             id="searchInput"
             class="w-full"
+            theme="blue"
             type="text"
             v-model="searchInput"
             placeholder="Type emails"
