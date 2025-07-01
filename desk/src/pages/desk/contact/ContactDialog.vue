@@ -228,7 +228,7 @@ const options = computed(() => ({
   actions: [
     {
       label: "Save",
-      theme: "gray",
+      theme: "blue",
       variant: "solid",
       onClick: () => update(),
     },

@@ -15,7 +15,7 @@
               v-for="key in item.display"
               :key="key"
               :label="key"
-              theme="gray"
+              theme="blue"
               variant="outline"
               size="lg"
             />

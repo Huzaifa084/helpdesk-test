@@ -7,7 +7,7 @@
         {
           disabled: !preset,
           label: 'Submit',
-          theme: 'gray',
+          theme: 'blue',
           variant: 'solid',
           onClick: () =>
             setValue.submit({

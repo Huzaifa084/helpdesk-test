@@ -47,7 +47,7 @@
             <template #bottom-right>
               <Button
                 label="Send"
-                theme="gray"
+                theme="blue"
                 variant="solid"
                 :disabled="$refs.editor?.editor.isEmpty || send.loading"
                 :loading="send.loading"

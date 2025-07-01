@@ -42,7 +42,7 @@
             :label="
               notificationStore.unread > 9 ? '9+' : notificationStore.unread
             "
-            theme="gray"
+            theme="blue"
             variant="subtle"
           />
         </template>
