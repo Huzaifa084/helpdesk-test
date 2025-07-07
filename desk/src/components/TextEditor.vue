@@ -89,7 +89,7 @@ const fixedMenu = [
   "Bullet List",
   "Numbered List",
   "Image",
-  "Video",
+  // "Video",
   "Link",
   "Blockquote",
   "Code",

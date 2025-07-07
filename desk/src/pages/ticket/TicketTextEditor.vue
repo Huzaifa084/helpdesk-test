@@ -36,7 +36,14 @@
             folder: 'Home/Helpdesk',
             private: true,
           }"
-          @success="(f: File) => $emit('update:attachments', [...attachments, f])"
+          @success="(f: File) => {
+            // Prevent video files from being added (check by file extension only)
+            if (f.file_name && /\.(mp4|avi|mov|wmv|flv|webm|mkv)$/i.test(f.file_name)) {
+              toast.error('Video files are not allowed.');
+              return;
+            }
+            $emit('update:attachments', [...attachments, f]);
+          }"
           @failure="() => toast.error('Error uploading file')"
         >
           <template #default="{ openFileSelector }">
