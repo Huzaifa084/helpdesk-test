@@ -133,13 +133,13 @@ export const services: EmailService[] = [
     link: "https://yandex.com/support/id/authorization/app-passwords.html",
     custom: false,
   },
-  {
-    name: "Frappe Mail",
-    icon: LogoFrappeMail,
-    info: `Setting up Frappe Mail requires you to have an API key and API Secret of your email account. Read more `,
-    link: "https://github.com/frappe/mail",
-    custom: true,
-  },
+  // {
+  //   name: "Frappe Mail",
+  //   icon: LogoFrappeMail,
+  //   info: `Setting up Frappe Mail requires you to have an API key and API Secret of your email account. Read more `,
+  //   link: "https://github.com/frappe/mail",
+  //   custom: true,
+  // },
 ];
 
 export const emailIcon = {
@@ -149,7 +149,7 @@ export const emailIcon = {
   SparkPost: LogoSparkpost,
   Yahoo: LogoYahoo,
   Yandex: LogoYandex,
-  "Frappe Mail": LogoFrappeMail,
+  // "Frappe Mail": LogoFrappeMail,
 };
 
 export function validateInputs(state: EmailAccount, isCustom: boolean) {

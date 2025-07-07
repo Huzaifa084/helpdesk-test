@@ -120,7 +120,7 @@ export const textEditorMenuButtons = [
   "FontColor",
   "Separator",
   "Image",
-  "Video",
+  // "Video",
   "Link",
   "Blockquote",
   "Code",
