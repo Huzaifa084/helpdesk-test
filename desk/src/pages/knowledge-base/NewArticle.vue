@@ -148,6 +148,7 @@ function handleArticleDiscard() {
       {
         label: "Confirm",
         variant: "solid",
+        theme: "blue",
         onClick(close: Function) {
           router.push({
             name: "AgentKnowledgeBase",

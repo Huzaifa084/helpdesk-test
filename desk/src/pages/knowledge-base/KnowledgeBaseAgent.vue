@@ -194,6 +194,7 @@ const selectBannerActions = [
           {
             label: "Confirm",
             variant: "solid",
+            theme: "blue",
             onClick({ close }) {
               handleDeleteArticles();
               close();
@@ -301,6 +302,7 @@ function handleCategoryDelete(groupedRow) {
       {
         label: "Confirm",
         variant: "solid",
+        theme: "blue",
         onClick(close: Function) {
           deleteCategory.submit(
             {

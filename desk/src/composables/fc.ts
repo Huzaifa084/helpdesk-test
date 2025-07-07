@@ -26,6 +26,7 @@ export const confirmLoginToFrappeCloud = () => {
       {
         label: "Confirm",
         variant: "solid",
+        theme: "blue",
         onClick(close: Function) {
           loginToFrappeCloud();
           close();

@@ -392,6 +392,7 @@ const viewActions = (view) => {
                 {
                   label: "Confirm",
                   variant: "solid",
+                  theme: "blue",
                   onClick({ close }) {
                     close();
                     updateView(newView);
@@ -425,6 +426,7 @@ const viewActions = (view) => {
                 {
                   label: "Confirm",
                   variant: "solid",
+                  theme: "blue",
                   onClick({ close }) {
                     if (route.query.view === _view.name) {
                       router.push({

@@ -29,6 +29,7 @@ const actions = [
   {
     label: "Move",
     variant: "solid",
+    theme: "blue",
     onClick: () => {
       emit("move", category.value);
       category.value = "";

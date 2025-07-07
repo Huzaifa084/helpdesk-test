@@ -316,6 +316,7 @@ function handleDelete() {
       {
         label: "Confirm",
         variant: "solid",
+        theme: "blue",
         onClick({ close }) {
           deleteArticle.submit(
             {

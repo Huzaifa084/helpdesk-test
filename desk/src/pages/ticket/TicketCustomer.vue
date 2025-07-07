@@ -185,6 +185,7 @@ function showConfirmationDialog() {
       {
         label: "Confirm",
         variant: "solid",
+        theme: "blue",
         onClick(close: Function) {
           ticket.data.status = "Closed";
           setValue.submit(

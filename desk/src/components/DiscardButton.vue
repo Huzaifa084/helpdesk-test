@@ -36,6 +36,7 @@ function handleDiscard() {
       {
         label: "Confirm",
         variant: "solid",
+        theme: "blue",
         onClick(close: Function) {
           emit("discard");
           close();
